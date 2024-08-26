@@ -34,6 +34,7 @@ ul, a, li {
     outline: none;
     color: inherit;
 }
+/* Top Bar */
 .top-links {
     display: flex;
     color: #E5E7EB;
@@ -64,6 +65,10 @@ ul, a, li {
     font-weight: 800;
     width: 150px;
 }
+/* Middle Section */
+.middle-white {
+    padding: 50px 100px
+}
 .random-info {
     display: flex;
     justify-content: center;
@@ -71,15 +76,82 @@ ul, a, li {
     font-size: 36px;
     font-weight: 800;
 }
-.square-images {
-    display: flex;
-    justify-content: space-evenly;
-    
-
-}
 .blue-squares{
     outline: 5px #3882F6 solid;
     padding: 50px;
+    border-radius: 5px;
     display: flex;
-    
+    gap: 20px;
+    flex: 1;
+    margin: 10px;
+}
+.square-images ul {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+/* Quote Section */
+.quote-section {
+    font-size: 36px;
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+    color: #1F2937;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-height: 300px
+}
+/* Bottom Section (before copyright) */
+.bottom-cta {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#cta-time {
+    font-size: 26px;
+    font-weight: 800;
+}
+#sign-up{
+    font-size: 16px;
+}
+.bottom-cta-line {
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+#sign-up-btn {
+    font-size: 16px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    min-width: 100px;
+    max-height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+}
+.cta-square { 
+    background-color: #3882F6;
+    display: flex;
+    flex-grow: 1;
+    padding: 50px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+}
+#sign-up {
+    font-weight: 100;
+}
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    min-height: 40px;
+    align-items: center;
 }
