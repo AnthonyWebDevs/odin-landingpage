@@ -67,7 +67,10 @@ ul, a, li {
 }
 /* Middle Section */
 .middle-white {
-    padding: 50px 100px
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .random-info {
     display: flex;
@@ -91,6 +94,7 @@ ul, a, li {
     gap: 20px;
     justify-content: space-evenly;
     font-size: 16px;
+    max-width: 1000px;
 }
 /* Quote Section */
 .quote-section {
